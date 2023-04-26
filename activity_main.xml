@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cardview_light_background"
+            android:gravity="right"
+            android:textSize="90sp"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="4"
+            android:rowCount="5">
+
+            <Button
+                android:id="@+id/btnc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:text="@string/c"
+                android:textSize="50sp"
+                android:typeface="serif"
+                android:layout_marginTop="50dp"
+                />
+
+
+
+            <Button
+                android:id="@+id/btnper"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:text="@string/percent"
+                android:textSize="50sp"
+                android:typeface="serif"
+                android:layout_marginTop="50dp"/>
+
+            <Button
+                android:id="@+id/btncomma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:onClick="onClick"
+                android:text="@string/comma"
+                android:textSize="50sp"
+                android:typeface="serif" />
+
+
+            <Button
+                android:id="@+id/btndiv"
+                android:layout_width="147dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:onClick="onClick"
+                android:text="@string/div"
+                android:textSize="50sp"
+                android:typeface="serif" />
+
+            <Button
+                android:id="@+id/btn7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:text="@string/_7"
+                android:textSize="50sp"
+                android:typeface="serif" />
+
+            <Button
+                android:id="@+id/btn8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:text="@string/_8"
+                android:textSize="50sp"
+                android:typeface="serif" />
+
+            <Button
+                android:id="@+id/btn9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:text="@string/_9"
+                android:textSize="50sp"
+                android:typeface="serif" />
+
+
+            <Button
+                android:id="@+id/btnmul"
+                android:layout_width="147dp"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:text="@string/mul"
+                android:textSize="50sp"
+                android:typeface="serif" />
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:text="@string/_4"
+                android:textSize="50sp"
+                android:typeface="serif" />
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:text="@string/_5"
+                android:textSize="50sp"
+                android:typeface="serif" />
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:text="@string/_6"
+                android:textSize="50sp"
+                android:typeface="serif"
+
+                />
+
+            <Button
+                android:id="@+id/btnsub"
+                android:layout_width="147dp"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:text="@string/sub"
+                android:textSize="50sp"
+                android:typeface="serif" />
+
+
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTint="#8F1E1E"
+                android:onClick="onClick"
+                android:text="@string/_1"
+                android:textSize="50sp"
+                android:typeface="serif" />
+
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:text="@string/_2"
+                android:textSize="50sp"
+                android:typeface="serif" />
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:text="@string/_3"
+                android:textSize="50sp"
+                android:typeface="serif" />
+
+            <Button
+                android:id="@+id/btnad"
+                android:layout_width="146dp"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:text="@string/ad"
+                android:textSize="50sp"
+                android:typeface="serif" />
+
+            <Button
+                android:id="@+id/btn0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnSpan="3"
+                android:layout_gravity="fill"
+                android:onClick="onClick"
+                android:text="@string/_00"
+                android:textSize="50sp"
+                android:typeface="serif" />
+
+
+            <Button
+                android:id="@+id/btneq"
+                android:layout_width="147dp"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:onClick="onClick"
+                android:text="@string/eq"
+                android:textSize="50sp"
+                android:typeface="serif" />
+
+
+        </GridLayout>
+    </LinearLayout>
+
+</LinearLayout>
